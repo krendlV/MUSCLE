@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1200 250" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect x="0" y="0" width="1200" height="250" rx="10" fill="#f8f9fa" />
+    <!-- Stylized myotube with nuclei - extended across header -->
+    <path d="M50,125 C150,95 250,85 350,90 C450,95 550,115 650,120 C750,125 850,115 950,110 C1050,105 1100,125 1150,125 C1100,145 1050,155 950,150 C850,145 750,135 650,140 C550,145 450,165 350,160 C250,155 150,145 50,125 Z" fill="#8bc34a" fill-opacity="0.7" stroke="#4caf50" stroke-width="2" />
+    <!-- Nuclei inside the myotube -->
+    <circle cx="200" cy="125" r="15" fill="#2c5aa0" />
+    <circle cx="400" cy="125" r="15" fill="#2c5aa0" />
+    <circle cx="600" cy="125" r="15" fill="#2c5aa0" />
+    <circle cx="800" cy="125" r="15" fill="#2c5aa0" />
+    <circle cx="1000" cy="125" r="15" fill="#2c5aa0" />
+    <!-- Targeting reticle over side nucleus -->
+    <circle cx="800" cy="125" r="30" fill="none" stroke="#ff5722" stroke-width="1.5" stroke-dasharray="5,3" />
+    <line x1="800" y1="85" x2="800" y2="165" stroke="#ff5722" stroke-width="1.5" />
+    <line x1="760" y1="125" x2="840" y2="125" stroke="#ff5722" stroke-width="1.5" />
+    <!-- MUSCLE Text - positioned above myotube -->
+    <text x="600" y="65" font-family="Arial, sans-serif" font-size="60" font-weight="bold" text-anchor="middle" fill="#2c5aa0">MUSCLE</text>
+    <!-- Subtitle text - larger and more prominent -->
+    <text x="600" y="190" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#555">Myotube and Nuclei Skeletal Cell Locator &amp; Evaluator</text>
+</svg>
