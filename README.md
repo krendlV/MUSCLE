@@ -54,73 +54,47 @@ Your input helps make this project better for everyone!
 ## Installation
 
 ### Prerequisites
-
-- Python 3.9 or higher
-- CUDA-capable GPU (optional, for acceleration)
+- Docker Desktop installed and running
+- No additional software required
 
 ### Setup
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/muscle.git
-cd muscle
-```
-
-2. Create a virtual environment (recommended):
-```bash
-python -m venv muscle_env
-source muscle_env/bin/activate  # On Windows: muscle_env\Scripts\activate
-```
-
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+1. Download and extract the repository files
+2. Navigate to the extracted folder
+3. That's it! No additional installation needed.
 
 ## Usage
 
-### Interactive Mode (Recommended)
+### Quick Start
+1. **Start Docker Desktop** (make sure it's running)
+2. **Run the startup script:**
+   - **Windows**: Double-click `start.bat`
+   - **Linux/Mac**: Run `./start.sh` in terminal
 
-1. Launch Jupyter Notebook:
-```bash
-jupyter notebook muscle.ipynb
-```
+### First Run
+- The Docker image will be built automatically from the included `.tar` file
+- This may take a few minutes on first launch
+- The application will start automatically in a new browser window
+- An `output` directory will be created in your project folder
 
-2. Run all cells in the notebook to load the interface
+### Processing Images
+1. **Add your images**: Place microscopy images in the `input` directory (or create a symlink to your image folder)
+2. **Run analysis**: The app launches automatically in your browser
+   - If the browser doesn't open automatically, navigate to the displayed URL
+   - Sometimes you may need to refresh the browser tab
+3. **Process new batches**: 
+   - Add new images to the `input` directory
+   - Simply refresh the browser tab to process the new batch
+   - Each run creates a timestamped folder in the `output` directory
 
-3. Use the interactive widget to:
-   - Select input directory containing microscopy images
-   - Choose myotube channel (green or red)
-   - Adjust detection parameters
-   - Configure output options
-   - Run analysis
+### Output
+- Results are automatically saved in timestamped folders within the `output` directory
+- Each analysis run creates a new folder with format: `YYYY-MM-DD_HH-MM-SS`
+- No manual file management required
 
-### Programmatic Usage
-
-For integration into analysis pipelines:
-
-```python
-from muscle import process_dataset
-
-results = process_dataset(
-    directory="path/to/images",
-    use_gpu=True,
-    min_myotube_size=200,
-    max_coverage_percent=40,
-    minimum_fiber_intensity=25,
-    maximum_fiber_intensity=200,
-    initial_nuclei_threshold=50,
-    max_nuclei_threshold=120,
-    myotube_channel='green',
-    save_plots=True,
-    plots_dir="path/to/save/plots",
-    save_masks=True,
-    masks_dir="path/to/save/masks",
-    save_results=True,
-    results_dir="path/to/save/results",
-    results_format="Excel"
-)
-```
+### Troubleshooting
+- **Browser doesn't open**: Check the terminal output for the application URL (usually `http://localhost:8877`)
+- **Application not loading**: Wait a moment and refresh the browser tab
+- **Docker issues**: Ensure Docker Desktop is running and has sufficient resources allocated
 
 ## Parameters
 
