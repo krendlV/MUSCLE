@@ -58,7 +58,7 @@ Your input helps make this project better for everyone!
 - Archive extraction software (WinRAR, 7-Zip, etc.)
 
 ### Setup
-1. **Download**: Get `muscle-docker-v1.0.rar` from this repository
+1. **Download**: Get [muscle-docker-v1.0.rar](https://github.com/krendlV/MUSCLE/releases/download/v1.0.0/muscle-docker-v1.0.rar) from the releases.
 2. **Extract**: Unpack the archive to your desired location (~2GB extracted)
 3. **That's it!** Everything needed is included in the archive
 
