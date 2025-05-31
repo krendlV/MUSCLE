@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="logo.svg" alt="Project Logo" width="100%" height="100%">
+</div>
+
 # MUSCLE - Myotube and Nuclei Skeletal Cell Locator &amp; Evaluator
 
 ## Overview
