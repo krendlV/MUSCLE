@@ -18,6 +18,39 @@ MUSCLE is a comprehensive Python-based image analysis tool designed for automate
 - **Flexible Output**: Export results as CSV/Excel, save segmentation masks, and generate visual reports
 - **GPU Acceleration**: Optional CUDA support for faster processing
 
+## 🚀 Available Versions
+
+### 📓 Interactive Notebook Version
+**Repository**: [MUSCLE](https://github.com/krendlV/MUSCLE)
+
+For developers and researchers who want full code access and customization.
+
+- Lightweight download
+- Full code visibility and editability
+- **GPU acceleration support**
+- Manual environment setup required
+
+### 🐳 Dockerized Application Version
+**Repository**: [MUSCLE-APP](https://github.com/krendlV/MUSCLE/tree/app)
+
+For end-users who want a ready-to-run application with enhanced UI.
+
+- Complete containerized solution (~500MB+)
+- Polished user interface (Voila-based)
+- One-click deployment with Docker
+- **CPU-only processing** (GPU support removed for consistency)
+
+## 🧪 Open Beta Phase
+
+This project is in open beta. We're seeking feedback to improve both versions.
+
+**How to contribute:**
+- **🐛 Issues**: Report bugs in the relevant repository
+- **🔧 Pull Requests**: Contribute code improvements  
+- **💡 Feedback**: Share your experience and suggestions
+
+Your input helps make this project better for everyone!
+
 ## Installation
 
 ### Prerequisites
