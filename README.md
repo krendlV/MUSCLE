@@ -42,7 +42,7 @@ For end-users who want a ready-to-run application with enhanced UI.
 
 ## 🧪 Open Beta Phase
 
-This project is in open beta. We're seeking feedback to improve both versions.
+This project is in open beta. I am seeking feedback to improve both versions.
 
 **How to contribute:**
 - **🐛 Issues**: Report bugs in the relevant repository
