@@ -63,7 +63,7 @@ Your input helps make this project better for everyone!
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/muscle.git
+git clone https://github.com/krendlV/MUSCLE.git
 cd muscle
 ```
 
